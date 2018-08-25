@@ -4,7 +4,7 @@
   "description": "remark config settings for td open source projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "version": "version-changelog CHANGELOG.md && changelog-verify CHANGELOG.md && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -60,9 +60,11 @@
   },
   "devDependencies": {
     "@domain-group/eslint-config-domain": "^5.0.0",
+    "changelog-verify": "^1.1.0",
     "eslint": "^4.19.1",
     "prettier": "^1.13.0",
-    "remark-cli": "^5.0.0"
+    "remark-cli": "^5.0.0",
+    "version-changelog": "^3.1.0"
   },
   "homepage": "https://github.com/tomdaniels/td-remark-config#readme"
 }
