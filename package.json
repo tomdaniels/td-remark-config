@@ -1,6 +1,6 @@
 {
   "name": "td-remark-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "remark config settings for td open source projects",
   "main": "index.js",
   "scripts": {
